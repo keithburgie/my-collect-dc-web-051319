@@ -9,7 +9,6 @@ def my_collect(args)
     collection << args[i]
     i += 1
   end
-  
   collection
 end
 
