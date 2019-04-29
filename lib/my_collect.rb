@@ -6,5 +6,5 @@ def my_collect(array)
     newArray << array[i]
     i += 1
   end
-  newArray.join(' ')
+  newArray
 end
