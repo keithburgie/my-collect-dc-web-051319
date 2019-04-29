@@ -1,15 +1,10 @@
-def my_collect(args)
+def my_collect(array)
+  #newCollection = []
   i = 0
-  
-  collection = []
-  puts "the program is executing the code inside the method"
-  
-  while i < args.length
-    yield(args[i])
-    collection << args[i]
+  while i < array.length
+    yield(array[i])
     i += 1
   end
-  collection
 end
 
 my_collect(["Tim", "Tom", "Jim"]) do |name|
